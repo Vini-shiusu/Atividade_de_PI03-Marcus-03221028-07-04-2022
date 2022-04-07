@@ -1,6 +1,18 @@
+
 body {
+    background-color: black;
     margin: 0px;
     font-family: monospace;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    border-bottom: 3px #32b9cd solid;
+    align-items: center;
+}
+.titulo {
+    margin: 0px;
+    color: #32b9cd;
 }
 .container {
     width: 80%;
@@ -12,12 +24,26 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.navbar {
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    color: orange;
+    display: flex;
+    padding: 0;
+}
 p {
     color: white;
 }
+.banner {
+    height: 500px;
+    background-image: url("imgs/bg-jelly-fish-para-home.png");
+    background-size: cover;
+}
 .banner .card {
     background-color: beige;
-    height: 620px;
+    height: 600px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -25,12 +51,7 @@ p {
     justify-content: center;
     margin: auto;
     margin-top: 20px;
-    border-radius: 10%;
-}
-.banner {
-    height: 700px;
-    background-image: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700756700.jpg");
-    background-size: cover;
+    border-radius: 5%;
 }
 .btn {
     font-family: monospace;
